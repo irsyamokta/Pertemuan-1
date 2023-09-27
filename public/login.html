@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            margin: auto;
+            width: 350px;
+            height: 300px;
+            background-color: cadetblue;
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 20px;
+        }
+
+        button{
+            width: 150px;
+            height: 30px;
+            background-color: aqua;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        input{
+            border: none;
+            border-radius: 10px;
+            height: 16px;
+            outline-color: green;
+            padding: 5px;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        button:hover{
+            background-color: transparent;
+            border: 1px black solid;
+            width: 140px;
+        }
+        
+        nav{
+            background-color: lightblue;
+            height: 30px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: red;
+        }
+
+        footer {
+            text-align: center;
+            background-color: lightblue;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+    </nav>
+    <div class="container">
+        <h1>Login</h1>
+        <form action="login.html">
+            <label for="email">
+                <input type="email" id="email" placeholder="email">
+            </label>
+            <label for="password">
+                <input type="password" name="" id="pwd" placeholder="password">
+            </label>
+        </form>
+        <button>Login</button>
+    </div>
+
+    <footer>
+        <p>Copyright 2023</p>
+    </footer>
+</body>
+</html>
